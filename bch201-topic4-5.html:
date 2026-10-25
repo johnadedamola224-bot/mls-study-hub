@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BCH 201 - Topics 4 and 5 | MLS Study Hub</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;line-height:1.7;background:#f3f7fb;color:#243247}
+header{background:#075985;color:white;padding:24px 16px;text-align:center}
+header h1{margin:0;font-size:25px}
+header p{margin:8px 0 0}
+main{max-width:900px;margin:auto;padding:16px}
+section{background:white;margin:16px 0;padding:20px;border-radius:12px;box-shadow:0 2px 8px #00000010}
+h2{color:#075985;border-bottom:2px solid #dbeafe;padding-bottom:8px}
+h3{color:#0f766e}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
+th,td{border:1px solid #cbd5e1;padding:9px;text-align:left;vertical-align:top}
+th{background:#e0f2fe}
+.note{background:#ecfeff;border-left:4px solid #0891b2;padding:12px}
+.warning{background:#fff7ed;border-left:4px solid #ea580c;padding:12px}
+.diagram{background:#f0f9ff;border:1px solid #bae6fd;border-radius:8px;padding:12px;text-align:center;margin:14px 0}
+.flow{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap}
+.flow span{background:#dbeafe;padding:9px;border-radius:7px;font-weight:bold}
+a{color:#0369a1}
+li{margin-bottom:7px}
+footer{text-align:center;padding:20px;color:#475569}
+button{background:#075985;color:white;border:0;border-radius:7px;padding:10px}
+</style>
+</head>
+<body>
+<header>
+<h1>BCH 201: Biochemistry</h1>
+<p>Topics 4 and 5: Functions, Isolation, Purification and Identification of Proteins</p>
+<p>MLS Study Hub</p>
+</header>
+<main>
+<section>
+<h2>Learning Objectives</h2>
+<p>By the end of these topics, students should be able to:</p>
+<ul>
+<li>Explain the major biological functions of proteins.</li>
+<li>Describe methods used to extract, isolate and purify proteins.</li>
+<li>Explain how chromatography and electrophoresis separate proteins.</li>
+<li>Describe common laboratory tests for proteins and amino acids.</li>
+<li>Interpret the basic meaning and limitations of positive test results.</li>
+</ul>
+<div class="note"><strong>Key idea:</strong> Proteins are amino-acid-based molecules essential for body structure, metabolism, transport, defence and many other biological processes.</div>
+</section>
+
+<section>
+<h2>TOPIC 4: Biological Functions of Proteins</h2>
+<h3>1. What are proteins?</h3>
+<p>Proteins are biological macromolecules made of amino acids joined by peptide bonds. Their amino-acid sequence and three-dimensional structure determine their properties and functions.</p>
+<p>Proteins contain mainly carbon, hydrogen, oxygen and nitrogen. Some also contain sulfur, phosphorus, metals or attached carbohydrate and lipid groups.</p>
+
+<h3>2. Major functions of proteins</h3>
+<table>
+<tr><th>Function</th><th>Explanation</th><th>Examples</th></tr>
+<tr><td>Enzymatic</td><td>Speed up biochemical reactions without being used up in the reaction.</td><td>Amylase, pepsin, catalase</td></tr>
+<tr><td>Structural</td><td>Provide strength, support and shape to cells and tissues.</td><td>Collagen, keratin</td></tr>
+<tr><td>Transport</td><td>Carry substances around the body or across membranes.</td><td>Haemoglobin carries oxygen; albumin transports various substances in blood.</td></tr>
+<tr><td>Storage</td><td>Store substances for later use.</td><td>Ferritin stores iron; casein stores amino acids in milk.</td></tr>
+<tr><td>Defence</td><td>Help protect the body against infectious agents and foreign substances.</td><td>Antibodies, complement proteins</td></tr>
+<tr><td>Movement</td><td>Participate in muscle contraction and cellular movement.</td><td>Actin, myosin</td></tr>
+<tr><td>Hormonal signalling</td><td>Some proteins and peptides act as chemical messengers.</td><td>Insulin, growth hormone</td></tr>
+<tr><td>Receptors</td><td>Recognise signals and help cells respond to them.</td><td>Insulin receptor, membrane receptors</td></tr>
+<tr><td>Blood clotting</td><td>Help limit blood loss after blood-vessel injury.</td><td>Fibrinogen, thrombin</td></tr>
+<tr><td>Fluid balance</td><td>Plasma proteins help maintain oncotic pressure and fluid distribution.</td><td>Albumin</td></tr>
+<tr><td>Acid-base balance</td><td>Proteins can bind or release hydrogen ions and contribute to buffering.</td><td>Haemoglobin, plasma proteins</td></tr>
+</table>
+
+<h3>3. Enzymes as proteins</h3>
+<p>Many enzymes are proteins that act as biological catalysts. They lower the activation energy of reactions, allowing reactions to proceed faster under biological conditions. Enzymes are selective for particular substrates or reactions.</p>
+<div class="diagram">
+<strong>Basic enzyme action</strong>
+<div class="flow">
+<span>Enzyme + substrate</span><b>→</b>
+<span>Enzyme-substrate complex</span><b>→</b>
+<span>Products + enzyme</span>
+</div>
+<p>The enzyme can be used again after the reaction, provided it remains functional.</p>
+</div>
+<p>Enzyme activity may be affected by temperature, pH, substrate concentration, inhibitors and the presence of required cofactors. Very high temperatures or extreme pH may alter an enzyme's structure and reduce its activity.</p>
+
+<h3>4. Proteins in immunity</h3>
+<p>Antibodies, also called immunoglobulins, bind specific antigens. Other immune proteins help identify, neutralise or remove foreign material. Laboratory measurement of selected proteins can support the investigation of infection, inflammation and immune disorders, but results must be interpreted with the patient's clinical information.</p>
+
+<h3>5. Proteins in transport and diagnosis</h3>
+<p>Haemoglobin transports oxygen in red blood cells. Albumin is the major plasma protein and contributes to oncotic pressure while carrying several substances. Abnormal concentrations of blood proteins may be associated with liver disease, kidney disease, inflammation, nutritional problems or other conditions; no single result should be interpreted in isolation.</p>
+
+<h3>6. Importance of proteins in Medical Laboratory Science</h3>
+<ul>
+<li>Protein and albumin measurements can help assess selected liver, kidney and nutritional conditions.</li>
+<li>Haemoglobin measurement supports the assessment and classification of anaemia.</li>
+<li>Immunoglobulin testing may assist investigations of immune conditions.</li>
+<li>Enzyme measurements may support the assessment of tissue injury or organ dysfunction.</li>
+<li>Protein electrophoresis can help separate protein fractions and investigate abnormal patterns.</li>
+</ul>
+<div class="warning"><strong>Remember:</strong> A laboratory result must be interpreted using appropriate reference intervals, specimen quality, the test method and the patient's clinical context.</div>
+</section>
+
+<section>
+<h2>TOPIC 5: Isolation and Purification of Proteins</h2>
+
+<h3>1. Meaning of isolation and purification</h3>
+<p><strong>Protein isolation</strong> means separating a protein or group of proteins from cells, tissues or a mixture. <strong>Protein purification</strong> means removing unwanted substances and other proteins to obtain a preparation enriched in the protein of interest.</p>
+<p>Purification is important when studying a protein's structure, function, enzyme activity or clinical significance.</p>
+
+<h3>2. General stages of protein isolation</h3>
+<div class="diagram">
+<div class="flow">
+<span>Sample collection</span><b>→</b>
+<span>Cell disruption</span><b>→</b>
+<span>Extraction</span><b>→</b>
+<span>Clarification</span><b>→</b>
+<span>Purification</span>
+</div>
+</div>
+<ol>
+<li><strong>Sample collection:</strong> Obtain suitable tissue, cells, blood or another biological sample.</li>
+<li><strong>Cell disruption:</strong> Break open cells when necessary to release their contents. Methods include homogenisation, sonication and suitable chemical or enzymatic treatment.</li>
+<li><strong>Extraction:</strong> Use a suitable buffer to keep the protein soluble and preserve its activity.</li>
+<li><strong>Clarification:</strong> Remove large debris by filtration or centrifugation.</li>
+<li><strong>Purification:</strong> Separate the target protein from other components using appropriate methods.</li>
+<li><strong>Analysis:</strong> Assess protein concentration, purity and, where relevant, biological activity.</li>
+</ol>
+
+<h3>3. Important precautions</h3>
+<ul>
+<li>Use an appropriate buffer and pH for the protein being studied.</li>
+<li>Keep samples cool when required to reduce degradation.</li>
+<li>Use protease inhibitors when appropriate and permitted by the protocol.</li>
+<li>Avoid unnecessary vigorous handling that may denature sensitive proteins.</li>
+<li>Follow laboratory biosafety procedures and use suitable personal protective equipment.</li>
+</ul>
+
+<h3>4. Methods used to separate and purify proteins</h3>
+<table>
+<tr><th>Method</th><th>Principle</th><th>Typical use</th></tr>
+<tr><td>Centrifugation</td><td>Separates particles according to properties such as size, density and shape under centrifugal force.</td><td>Removing cell debris or separating cellular fractions.</td></tr>
+<tr><td>Filtration</td><td>A filter retains particles larger than its effective pore size.</td><td>Removing suspended particles from a sample.</td></tr>
+<tr><td>Salt precipitation</td><td>High salt concentrations can reduce protein solubility, causing selected proteins to precipitate.</td><td>Concentrating or fractionating proteins.</td></tr>
+<tr><td>Dialysis</td><td>Small solutes pass through a semipermeable membrane while larger molecules are retained.</td><td>Removing salts and other small molecules.</td></tr>
+<tr><td>Size-exclusion chromatography</td><td>Molecules separate according to their effective size in a porous matrix.</td><td>Separating proteins of different sizes.</td></tr>
+<tr><td>Ion-exchange chromatography</td><td>Proteins separate according to charge interactions with a charged stationary phase.</td><td>Separating proteins with different charge properties.</td></tr>
+<tr><td>Affinity chromatography</td><td>A target protein binds selectively to a ligand attached to the stationary phase.</td><td>Selective purification of a protein with a suitable binding partner.</td></tr>
+<tr><td>Electrophoresis</td><td>Charged molecules move in an electric field; separation depends on the technique and conditions.</td><td>Analysing protein patterns and assessing sample purity.</td></tr>
+</table>
+
+<h3>5. Chromatography explained</h3>
+<p>Chromatography separates mixture components through their different interactions with a stationary phase and a mobile phase. The stationary phase remains in place, while the mobile phase moves through or over it.</p>
+<div class="diagram">
+<strong>Simple chromatography model</strong>
+<div class="flow">
+<span>Protein mixture</span><b>→</b>
+<span>Column with stationary phase</span><b>→</b>
+<span>Separated fractions</span>
+</div>
+<p>Different proteins may leave the column at different times because they interact differently with the column material.</p>
+</div>
+
+<h3>6. Types of chromatography</h3>
+<p><strong>Size-exclusion chromatography:</strong> Larger molecules generally pass around the pores and elute earlier, while smaller molecules enter more pores and usually elute later.</p>
+<p><strong>Ion-exchange chromatography:</strong> Separation depends on protein charge at the selected pH. Salt concentration or pH changes can help release bound proteins.</p>
+<p><strong>Affinity chromatography:</strong> A ligand selectively binds the target protein. The protein is later eluted by changing suitable conditions, such as pH or salt concentration, according to the method.</p>
+
+<h3>7. Electrophoresis</h3>
+<p>Electrophoresis separates charged molecules by applying an electric field. The migration of proteins depends on factors such as their charge, size, shape, the supporting medium and the conditions used.</p>
+<ul>
+<li><strong>Native PAGE:</strong> Proteins are generally kept in a folded state, so separation can reflect charge, size and shape.</li>
+<li><strong>SDS-PAGE:</strong> Sodium dodecyl sulfate helps unfold proteins and gives them a broadly similar charge-to-mass ratio. Separation is therefore mainly according to molecular mass.</li>
+<li><strong>Serum protein electrophoresis:</strong> Separates serum proteins into characteristic fractions that may help investigate certain clinical conditions.</li>
+</ul>
+<div class="note"><strong>Important distinction:</strong> Electrophoresis is useful for analysing protein mixtures. A band at a particular position does not, by itself, prove the exact identity of a protein.</div>
+
+<h3>8. Protein concentration and purity</h3>
+<p>Protein concentration can be estimated using suitable assays, such as the Biuret method or dye-binding methods. Absorbance readings are commonly compared with a calibration curve prepared using known standards.</p>
+<p>Purity may be assessed using electrophoresis, chromatography or other suitable analytical techniques. A sample can have a high protein concentration but still contain several different proteins.</p>
+
+<h3>9. Protein yield and specific activity</h3>
+<p><strong>Total protein</strong> is the amount of protein present in a sample. <strong>Enzyme activity</strong> measures the rate at which an enzyme-catalysed reaction occurs under defined conditions. <strong>Specific activity</strong> is enzyme activity per unit mass of total protein and is often used to follow enzyme purification.</p>
+<p>During purification, total protein yield may decrease because unwanted proteins are removed and some target protein may be lost. Specific activity often increases when an enzyme is successfully purified, although the outcome depends on the method and the enzyme's stability.</p>
+</section>
+
+<section>
+<h2>10. Qualitative Tests for Proteins and Amino Acids</h2>
+<p>Qualitative tests help detect particular chemical groups or properties. Their results depend on the sample, reagent, concentration and laboratory procedure.</p>
+
+<table>
+<tr><th>Test</th><th>What it detects</th><th>Positive observation</th><th>Interpretation</th></tr>
+<tr><td>Biuret test</td><td>Peptide bonds in suitable protein or peptide samples</td><td>Violet or purple colour</td><td>Supports the presence of compounds containing sufficient peptide bonds.</td></tr>
+<tr><td>Ninhydrin test</td><td>Free amino groups, including those in many amino acids</td><td>Usually blue-purple</td><td>Supports the presence of free amino groups. Proline and some related compounds may give a yellow colour.</td></tr>
+<tr><td>Xanthoproteic test</td><td>Aromatic groups in certain amino-acid residues</td><td>Yellow colour, which may become orange under alkaline conditions</td><td>May indicate aromatic amino acids such as tyrosine or tryptophan; sensitivity varies.</td></tr>
+<tr><td>Millon's test</td><td>Phenolic groups associated with tyrosine</td><td>Red colour or red precipitate under the specified procedure</td><td>May indicate tyrosine-containing material.</td></tr>
+<tr><td>Sulfur test</td><td>Some sulfur-containing amino-acid residues, especially cysteine under suitable conditions</td><td>Dark precipitate in the appropriate test</td><td>May support the presence of reactive sulfur-containing groups.</td></tr>
+</table>
+
+<h3>11. Biuret test: principle and procedure overview</h3>
+<p>In alkaline conditions, copper(II) ions form a violet-coloured complex with peptide bonds. The test is commonly used to detect proteins in a suitable sample.</p>
+<div class="diagram">
+<strong>Biuret test</strong>
+<div class="flow">
+<span>Suitable sample</span><b>+</b>
+<span>Biuret reagent</span><b>→</b>
+<span>Violet colour if positive</span>
+</div>
+</div>
+<p>Use the laboratory's validated method, including its specified reagent volumes, controls and safety instructions. A negative result does not always mean that no protein is present: the amount may be below the test's detection limit.</p>
+
+<h3>12. Ninhydrin test: principle</h3>
+<p>Ninhydrin reacts with many free amino groups to produce a coloured product. Many amino acids produce a blue-purple colour, while imino acids such as proline commonly produce a yellow product. The test is useful for demonstrating free amino groups but is not, on its own, a definitive identification method for a particular amino acid.</p>
+
+<h3>13. Interpreting test results</h3>
+<ul>
+<li>Compare results with suitable positive and negative controls.</li>
+<li>Consider the detection limit of the method.</li>
+<li>Other substances in the sample may interfere with a reaction.</li>
+<li>Colour changes can vary with reagent quality, pH and reaction conditions.</li>
+<li>Confirm important findings using appropriate validated methods.</li>
+</ul>
+<div class="warning"><strong>Laboratory safety:</strong> Some protein-test reagents are corrosive or hazardous. Perform practical work only under the supervision of a qualified instructor, following the approved procedure, PPE requirements and waste-disposal rules.</div>
+</section>
+
+<section>
+<h2>Revision Questions</h2>
+<p>Try answering these questions before checking the answers below.</p>
+<ol>
+<li>Define a protein and state the bond that joins amino acids.</li>
+<li>List six biological functions of proteins, giving one example for each.</li>
+<li>Explain why enzymes are called biological catalysts.</li>
+<li>What is the difference between protein isolation and protein purification?</li>
+<li>State the principle of centrifugation.</li>
+<li>Differentiate between size-exclusion chromatography and ion-exchange chromatography.</li>
+<li>What is the main basis of separation in SDS-PAGE?</li>
+<li>What is the principle of the Biuret test?</li>
+<li>What does the ninhydrin test detect, and what colour is commonly observed with many amino acids?</li>
+<li>Give three reasons why a laboratory test result should be interpreted cautiously.</li>
+</ol>
+</section>
+
+<section>
+<h2>Suggested Answers</h2>
+<ol>
+<li>Proteins are biological macromolecules made of amino acids joined by peptide bonds.</li>
+<li>Examples include catalysis (amylase), structure (collagen), transport (haemoglobin), defence (antibodies), movement (actin and myosin), and storage (ferritin).</li>
+<li>Enzymes increase reaction rates by lowering activation energy and are not consumed in the overall reaction.</li>
+<li>Isolation separates a protein from its original source or mixture; purification removes contaminants and other proteins to enrich the target protein.</li>
+<li>Centrifugation uses centrifugal force to separate components according to properties such as size, density and shape.</li>
+<li>Size-exclusion chromatography separates mainly by effective molecular size; ion-exchange chromatography separates according to charge interactions.</li>
+<li>SDS-PAGE separates proteins mainly by molecular mass under the method's denaturing conditions.</li>
+<li>Peptide bonds form a violet-coloured complex with copper(II) ions in alkaline conditions.</li>
+<li>It detects free amino groups; many amino acids produce a blue-purple colour, while proline commonly produces yellow.</li>
+<li>Possible reasons include interference, low analyte concentration, unsuitable specimen handling, method limitations and incorrect interpretation without clinical context.</li>
+</ol>
+</section>
+
+<section>
+<h2>Topic Summary</h2>
+<ul>
+<li>Proteins perform enzymatic, structural, transport, storage, immune, movement and signalling functions.</li>
+<li>Protein isolation may involve cell disruption, extraction, clarification and purification.</li>
+<li>Centrifugation, precipitation, dialysis, chromatography and electrophoresis serve different purposes.</li>
+<li>Biuret and ninhydrin tests detect different chemical features and must be interpreted appropriately.</li>
+<li>Reliable laboratory work depends on suitable controls, quality procedures, safety and careful interpretation.</li>
+</ul>
+<p><strong>Study tip:</strong> Practise explaining each separation method by stating its principle, what property it uses and one application.</p>
+</section>
+
+<section>
+<h2>Continue Learning</h2>
+<p><a href="bch201.html">← Return to BCH 201 main page</a></p>
+<p><a href="bch201-topic2.html">Review Topic 2</a> | <a href="bch201-topic3.html">Review Topic 3</a></p>
+<p><a href="handbook.html">Open MLS Study Hub Handbook</a></p>
+</section>
+</main>
+<footer>
+<p>MLS Study Hub | Learn, revise and grow in Medical Laboratory Science.</p>
+<p>Educational material: follow your lecturer's notes and approved laboratory procedures.</p>
+</footer>
+</body>
+</html>
