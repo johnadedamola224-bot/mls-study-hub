@@ -34,6 +34,106 @@
     Open Student Handbook
   </a>
     </section>
+    
+<section id="mls-login" style="max-width:500px;margin:30px auto;padding:24px;background:#eef6ff;border-radius:14px;font-family:Arial,sans-serif;">
+  <h2 style="color:#0756a3;text-align:center;">MLS Study Hub</h2>
+  <p style="text-align:center;">Sign in to your student account</p>
+
+  <label for="mls-email">Email address</label>
+  <input id="mls-email" type="email" autocomplete="email" placeholder="Enter your email" style="box-sizing:border-box;width:100%;padding:12px;margin:8px 0 16px;">
+
+  <label for="mls-password">Password</label>
+  <input id="mls-password" type="password" autocomplete="current-password" placeholder="Enter your password" style="box-sizing:border-box;width:100%;padding:12px;margin:8px 0 16px;">
+
+  <button id="mls-signin" style="width:100%;padding:12px;background:#0756a3;color:white;border:0;border-radius:8px;margin-bottom:10px;">Sign in with email</button>
+
+  <button id="mls-signup" style="width:100%;padding:12px;background:white;color:#0756a3;border:1px solid #0756a3;border-radius:8px;margin-bottom:10px;">Create student account</button>
+
+  <button id="mls-google" style="width:100%;padding:12px;background:white;border:1px solid #999;border-radius:8px;">Continue with Google</button>
+
+  <p id="mls-status" role="status" aria-live="polite"></p>
+  <button id="mls-signout" hidden style="padding:10px;">Sign out</button>
+</section>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js";
+  import {
+    getAuth,
+    setPersistence,
+    browserLocalPersistence,
+    onAuthStateChanged,
+    signInWithEmailAndPassword,
+    createUserWithEmailAndPassword,
+    GoogleAuthProvider,
+    signInWithPopup,
+    signOut
+  } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyA67xmUQZAPXNWXF5z79bZbmMwBr1ENAGI",
+    authDomain: "mls-study-hub.firebaseapp.com",
+    projectId: "mls-study-hub",
+    storageBucket: "mls-study-hub.firebasestorage.app",
+    messagingSenderId: "1076330844160",
+    appId: "1:1076330844160:web:4205fe6dc45595ef66c8e5",
+    measurementId: "G-BCYQF13F6Y"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const status = document.getElementById("mls-status");
+  const email = document.getElementById("mls-email");
+  const password = document.getElementById("mls-password");
+  const signoutButton = document.getElementById("mls-signout");
+
+  setPersistence(auth, browserLocalPersistence).catch(error => {
+    status.textContent = "Session setup failed: " + error.message;
+  });
+
+  document.getElementById("mls-signin").onclick = async () => {
+    try {
+      await signInWithEmailAndPassword(auth, email.value.trim(), password.value);
+      status.textContent = "Sign-in successful.";
+    } catch (error) {
+      status.textContent = "Sign-in failed: " + error.message;
+    }
+  };
+
+  document.getElementById("mls-signup").onclick = async () => {
+    try {
+      await createUserWithEmailAndPassword(auth, email.value.trim(), password.value);
+      status.textContent = "Account created and signed in.";
+    } catch (error) {
+      status.textContent = "Account creation failed: " + error.message;
+    }
+  };
+
+  document.getElementById("mls-google").onclick = async () => {
+    try {
+      await signInWithPopup(auth, new GoogleAuthProvider());
+      status.textContent = "Google sign-in successful.";
+    } catch (error) {
+      status.textContent = "Google sign-in failed: " + error.message;
+    }
+  };
+
+  signoutButton.onclick = async () => {
+    try {
+      await signOut(auth);
+      status.textContent = "You have signed out.";
+    } catch (error) {
+      status.textContent = "Sign-out failed: " + error.message;
+    }
+  };
+
+  onAuthStateChanged(auth, user => {
+    signoutButton.hidden = !user;
+    if (user) {
+      status.textContent = "Signed in as " + (user.email || "Google user") + ".";
+    }
+  });
+      </script>
+                                                                                                                                            
 
 </body>
   </html>
